@@ -1,26 +1,30 @@
 ---
-title: "Data Basics"
+title: "Working with Tables"
 output: html_document
 ---
 
-<!-- This file by Charlotte Wickham is licensed under a Creative Commons Attribution 4.0 International License. -->
+<!-- This file by Charlotte Wickham is licensed under a Creative Commons Attribution 4.0 International License, adapted from the orignal work at https://github.com/rstudio/master-the-tidyverse by RStudio. -->
 
 ```{r setup}
 library(tidyverse)
 library(haven)
 library(readxl)
+library(gapminder)
 ```
 
 # Tabular Data
 
-You might not see much difference between these two in this notebook, but one is a tibble and one is a data frame:
+Let's look at just our tabular datasets again: 
+
 ```{r}
-mpg
+starwars
 ```
 
 ```{r}
-quakes
+gapminder
 ```
+
+
 
 ## Your turn 1
 
@@ -97,11 +101,6 @@ Scan the Arguments section of ?read_excel, can you find an argument that might h
 ?read_excel
 ```
 
-
----
-title: "Transform Data"
-output: html_document
----
 
 <!-- This file by Charlotte Wickham is licensed under a Creative Commons Attribution 4.0 International License, adapted from the orignal work at https://github.com/rstudio/master-the-tidyverse by RStudio. -->
 

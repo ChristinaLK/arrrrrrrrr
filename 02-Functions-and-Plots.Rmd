@@ -1,7 +1,5 @@
-
-
 ---
-title: "Visualize Data"
+title: "Using Plots"
 output: html_document
 ---
 
